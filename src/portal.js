@@ -9,16 +9,15 @@ let currentUser = null
 
 async function initAuth() {
   const { data: { session } } = await supabase.auth.getSession()
-  if (session?.user) setUser(session.user)
-  supabase.auth.onAuthStateChange((_e, session) => {
-    setUser(session?.user || null)
+  if (session?.user) await setUser(session.user)
+  supabase.auth.onAuthStateChange(async (_e, session) => {
+    await setUser(session?.user || null)
   })
 }
 
 async function setUser(user) {
   currentUser = user
   const nav = document.getElementById('navActions')
-  // Always reset admin links
   const heroLink = document.getElementById('heroAdminLink')
   if (heroLink) heroLink.style.display = 'none'
 
@@ -26,26 +25,29 @@ async function setUser(user) {
     const initials = (user.email || user.user_metadata?.user_name || '?')
       .slice(0, 2).toUpperCase()
     const displayName = user.email || user.user_metadata?.user_name || ''
-    nav.innerHTML = `
-      <div class="user-pill">
-        <div class="avatar">${initials}</div>
-        <span>${displayName}</span>
-      </div>
-      <button class="btn btn-ghost btn-sm" id="signOutBtn">Sign Out</button>
-    `
-    document.getElementById('signOutBtn')?.addEventListener('click', signOut)
 
-    // Check admin role — reveal admin controls only if confirmed
-    const { data: profile } = await supabase
+    // Check admin role FIRST, then render nav once
+    const { data: profile, error: profileError } = await supabase
       .from('profiles')
       .select('role')
       .eq('id', user.id)
       .single()
 
-    if (profile?.role === 'admin') {
-      nav.innerHTML += `<a href="admin.html" class="btn btn-ghost btn-sm">Admin ↗</a>`
-      if (heroLink) heroLink.style.display = 'inline-flex'
-    }
+    console.log('Profile fetch:', profile, profileError)
+
+    const isAdmin = profile?.role === 'admin'
+
+    nav.innerHTML = `
+      <div class="user-pill">
+        <div class="avatar">${initials}</div>
+        <span>${displayName}</span>
+      </div>
+      ${isAdmin ? `<a href="admin.html" class="btn btn-ghost btn-sm">Admin ↗</a>` : ''}
+      <button class="btn btn-ghost btn-sm" id="signOutBtn">Sign Out</button>
+    `
+    document.getElementById('signOutBtn')?.addEventListener('click', signOut)
+
+    if (isAdmin && heroLink) heroLink.style.display = 'inline-flex'
   } else {
     nav.innerHTML = `
       <button class="btn btn-primary btn-sm" id="loginBtn">Sign In</button>

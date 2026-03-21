@@ -1,0 +1,752 @@
+[
+  {
+    "id": 1,
+    "text": "Which of the following is NOT a characteristic of research?",
+    "type": "mcq",
+    "opts": [
+      "Systematic",
+      "Empirical",
+      "Speculative",
+      "Replicable"
+    ],
+    "ans": 2,
+    "exp": "Research must be systematic (planned), empirical (evidence-based), and replicable (reproducible). Speculation implies guesswork without evidence — the opposite of sound research methodology.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 2,
+    "text": "The Likert scale is used to measure:",
+    "type": "mcq",
+    "opts": [
+      "Attitudes and opinions",
+      "Physical distances",
+      "Time durations",
+      "Financial data"
+    ],
+    "ans": 0,
+    "exp": "The Likert scale (developed by Rensis Likert, 1932) is a psychometric scale commonly used in surveys to capture the degree of agreement or disagreement with a statement, measuring attitudes and opinions.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 3,
+    "text": "Which type of sampling is used when the population is divided into subgroups?",
+    "type": "mcq",
+    "opts": [
+      "Simple random sampling",
+      "Stratified sampling",
+      "Cluster sampling",
+      "Systematic sampling"
+    ],
+    "ans": 1,
+    "exp": "Stratified sampling divides the population into homogeneous subgroups (strata) and then randomly samples from each stratum, ensuring proportional representation of all subgroups.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 4,
+    "text": "A hypothesis that states no relationship exists between variables is called:",
+    "type": "mcq",
+    "opts": [
+      "Alternate hypothesis",
+      "Null hypothesis",
+      "Directional hypothesis",
+      "Research hypothesis"
+    ],
+    "ans": 1,
+    "exp": "The null hypothesis (H₀) proposes that there is no significant relationship or difference between variables. It is the default assumption that researchers attempt to disprove through statistical testing.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 5,
+    "text": "Which of the following is a primary source of data?",
+    "type": "mcq",
+    "opts": [
+      "Newspaper",
+      "Encyclopaedia",
+      "Interview",
+      "Review article"
+    ],
+    "ans": 2,
+    "exp": "Primary sources provide first-hand, original data collected directly by the researcher — such as interviews, surveys, and experiments. Newspapers and encyclopaedias are secondary sources compiled from existing data.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 6,
+    "text": "The Indian Constitution was adopted on:",
+    "type": "mcq",
+    "opts": [
+      "15 August 1947",
+      "26 January 1950",
+      "26 November 1949",
+      "30 January 1948"
+    ],
+    "ans": 2,
+    "exp": "The Constitution of India was adopted by the Constituent Assembly on 26 November 1949 (celebrated as Constitution Day). It came into effect on 26 January 1950, which is celebrated as Republic Day.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 7,
+    "text": "Which Article of the Indian Constitution deals with Right to Education?",
+    "type": "mcq",
+    "opts": [
+      "Article 19",
+      "Article 21A",
+      "Article 30",
+      "Article 45"
+    ],
+    "ans": 1,
+    "exp": "Article 21A (inserted by the 86th Constitutional Amendment, 2002) makes Right to Education a Fundamental Right, providing free and compulsory education to all children aged 6–14 years.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 8,
+    "text": "The concept of 'Digital India' was launched in the year:",
+    "type": "mcq",
+    "opts": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "ans": 2,
+    "exp": "Digital India was launched on 1 July 2015 by the Government of India with a vision to transform India into a digitally empowered society and knowledge economy, focusing on digital infrastructure and digital literacy.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 9,
+    "text": "Which of the following is NOT a communication barrier?",
+    "type": "mcq",
+    "opts": [
+      "Noise",
+      "Feedback",
+      "Language difference",
+      "Cultural difference"
+    ],
+    "ans": 1,
+    "exp": "Feedback is actually an essential component of effective communication — it helps confirm that the message was received and understood correctly. Noise, language differences, and cultural differences all impede communication.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 10,
+    "text": "Semiotics is the study of:",
+    "type": "mcq",
+    "opts": [
+      "Sound waves",
+      "Signs and symbols",
+      "Human behaviour",
+      "Social institutions"
+    ],
+    "ans": 1,
+    "exp": "Semiotics (from the Greek 'semeion', meaning sign) is the study of signs, symbols, and their meanings and how they communicate. Ferdinand de Saussure and Charles Sanders Peirce are foundational figures in this field.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 11,
+    "text": "Which is the largest greenhouse gas contributor from agriculture?",
+    "type": "mcq",
+    "opts": [
+      "CO2",
+      "Methane",
+      "Nitrous oxide",
+      "Ozone"
+    ],
+    "ans": 1,
+    "exp": "Methane (CH₄) is the primary greenhouse gas from agriculture, mainly produced by enteric fermentation in ruminant livestock (cattle, sheep) and decomposition in rice paddies and manure management.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 12,
+    "text": "The Kyoto Protocol is related to:",
+    "type": "mcq",
+    "opts": [
+      "Nuclear disarmament",
+      "Climate change",
+      "Biodiversity",
+      "Marine pollution"
+    ],
+    "ans": 1,
+    "exp": "The Kyoto Protocol (1997, entered into force 2005) is an international treaty under UNFCCC that committed developed nations to reduce greenhouse gas emissions. It was the first binding international climate agreement.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 13,
+    "text": "NAAC stands for:",
+    "type": "mcq",
+    "opts": [
+      "National Assessment and Accreditation Council",
+      "National Academic Assurance Committee",
+      "National Authority for Academic Certification",
+      "National Association of Academic Councils"
+    ],
+    "ans": 0,
+    "exp": "NAAC (National Assessment and Accreditation Council) was established in 1994 by UGC. It assesses and accredits Higher Education Institutions (HEIs) in India through a peer-team process to maintain quality standards.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 14,
+    "text": "The National Education Policy 2020 proposes the school curriculum structure as:",
+    "type": "mcq",
+    "opts": [
+      "10+2",
+      "5+3+3+4",
+      "4+4+4",
+      "6+3+3+2"
+    ],
+    "ans": 1,
+    "exp": "NEP 2020 restructures school education into 5+3+3+4: Foundational (ages 3–8, 5 years), Preparatory (ages 8–11, 3 years), Middle (ages 11–14, 3 years), and Secondary (ages 14–18, 4 years), replacing the old 10+2 system.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 15,
+    "text": "Which teaching method centres on the student's active participation?",
+    "type": "mcq",
+    "opts": [
+      "Lecture method",
+      "Demonstration method",
+      "Problem-based learning",
+      "Rote learning"
+    ],
+    "ans": 2,
+    "exp": "Problem-based learning (PBL) is a student-centred pedagogy where learners actively work on complex, real-world problems. It promotes critical thinking, self-directed learning, and collaboration — contrasted with passive lecture-based instruction.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 16,
+    "text": "Bloom's Taxonomy highest cognitive level is:",
+    "type": "mcq",
+    "opts": [
+      "Analysis",
+      "Synthesis",
+      "Evaluation",
+      "Create"
+    ],
+    "ans": 3,
+    "exp": "In the revised Bloom's Taxonomy (Anderson & Krathwohl, 2001), 'Create' is the highest cognitive level — involving generating new ideas, products, or approaches. Original taxonomy had 'Evaluation' at the top, but the revised version replaced 'Synthesis' with 'Create'.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 17,
+    "text": "The term 'e-learning' primarily refers to:",
+    "type": "mcq",
+    "opts": [
+      "Economic learning",
+      "Electronic-based learning",
+      "Enhanced learning",
+      "Experimental learning"
+    ],
+    "ans": 1,
+    "exp": "E-learning refers to education delivered via electronic technologies, primarily the internet. It encompasses online courses, digital resources, virtual classrooms, and computer-based training — enabling learning anytime and anywhere.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 18,
+    "text": "Which of the following is an open-source Learning Management System?",
+    "type": "mcq",
+    "opts": [
+      "Blackboard",
+      "Canvas",
+      "Moodle",
+      "Coursera"
+    ],
+    "ans": 2,
+    "exp": "Moodle (Modular Object-Oriented Dynamic Learning Environment) is a free, open-source LMS widely used by educational institutions globally. Blackboard and Canvas are proprietary commercial systems; Coursera is an online MOOC platform.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 19,
+    "text": "The concept of 'spiral curriculum' was proposed by:",
+    "type": "mcq",
+    "opts": [
+      "John Dewey",
+      "Jerome Bruner",
+      "Benjamin Bloom",
+      "Lev Vygotsky"
+    ],
+    "ans": 1,
+    "exp": "Jerome Bruner introduced the spiral curriculum in 'The Process of Education' (1960). It proposes that subjects should be taught at increasing levels of difficulty, revisiting core concepts repeatedly as the learner's understanding deepens.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 20,
+    "text": "Formative assessment is primarily used for:",
+    "type": "mcq",
+    "opts": [
+      "Grading students",
+      "Monitoring learning progress",
+      "Final evaluation",
+      "Ranking institutions"
+    ],
+    "ans": 1,
+    "exp": "Formative assessment is ongoing assessment during the learning process (quizzes, class discussions, assignments) used to monitor progress and provide feedback to improve learning. Summative assessment evaluates achievement at the end.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 21,
+    "text": "Which of the following describes 'plagiarism'?",
+    "type": "mcq",
+    "opts": [
+      "Proper citation of sources",
+      "Using others' work without acknowledgement",
+      "Paraphrasing with attribution",
+      "Collaborative writing"
+    ],
+    "ans": 1,
+    "exp": "Plagiarism is the act of presenting someone else's ideas, words, or work as one's own without proper attribution. It is a serious academic and ethical violation, regardless of whether it is intentional or unintentional.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 22,
+    "text": "The peer review process in research ensures:",
+    "type": "mcq",
+    "opts": [
+      "Faster publication",
+      "Quality and validity of research",
+      "Open access",
+      "Author's anonymity"
+    ],
+    "ans": 1,
+    "exp": "Peer review is the evaluation of research by qualified experts in the same field before publication. It ensures the accuracy, validity, and significance of research findings, forming the backbone of scientific quality control.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 23,
+    "text": "An ISBN is used to identify:",
+    "type": "mcq",
+    "opts": [
+      "Journal articles",
+      "Books",
+      "Websites",
+      "Research reports"
+    ],
+    "ans": 1,
+    "exp": "ISBN (International Standard Book Number) is a unique 13-digit identifier assigned to each edition and variation of a book. Journal articles use DOI (Digital Object Identifier), while websites use URLs.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 24,
+    "text": "Which agency publishes the H-index for researchers?",
+    "type": "mcq",
+    "opts": [
+      "UGC",
+      "Google Scholar",
+      "NAAC",
+      "DST"
+    ],
+    "ans": 1,
+    "exp": "Google Scholar provides H-index metrics for researchers. The H-index (proposed by Jorge Hirsch in 2005) measures both productivity and citation impact — a researcher has index h if h papers have been cited at least h times.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 25,
+    "text": "'Impact factor' is associated with:",
+    "type": "mcq",
+    "opts": [
+      "Books",
+      "Researchers",
+      "Journals",
+      "Universities"
+    ],
+    "ans": 2,
+    "exp": "Impact Factor (IF) is a measure of the frequency with which articles in a journal are cited. Calculated by Clarivate Analytics (formerly Thomson Reuters) via Journal Citation Reports (JCR), it reflects the relative importance of a journal in its field.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 26,
+    "text": "Which body regulates higher education in India?",
+    "type": "mcq",
+    "opts": [
+      "CBSE",
+      "NCERT",
+      "UGC",
+      "AICTE"
+    ],
+    "ans": 2,
+    "exp": "UGC (University Grants Commission), established in 1956, is the statutory body under the Ministry of Education that regulates and maintains standards of higher education in India. AICTE regulates technical education specifically.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 27,
+    "text": "The mean of 5, 10, 15, 20, 25 is:",
+    "type": "mcq",
+    "opts": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "ans": 1,
+    "exp": "Mean = Sum / Count = (5+10+15+20+25) / 5 = 75 / 5 = 15. For an arithmetic progression, the mean equals the middle term, which is 15 here.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 28,
+    "text": "Standard deviation measures:",
+    "type": "mcq",
+    "opts": [
+      "Central tendency",
+      "Dispersion of data",
+      "Correlation",
+      "Regression"
+    ],
+    "ans": 1,
+    "exp": "Standard deviation (SD) is a measure of dispersion that quantifies how much the values in a dataset deviate from the mean. A low SD means values are clustered near the mean; a high SD means they are spread out.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 29,
+    "text": "Which test is used to compare two independent sample means?",
+    "type": "mcq",
+    "opts": [
+      "Chi-square test",
+      "F-test",
+      "t-test",
+      "Z-test"
+    ],
+    "ans": 2,
+    "exp": "The independent samples t-test (Student's t-test) is used to compare the means of two independent groups when sample sizes are small (<30) and population variance is unknown. Chi-square tests categorical data; F-test compares variances.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 30,
+    "text": "Which scale of measurement has a true zero point?",
+    "type": "mcq",
+    "opts": [
+      "Nominal",
+      "Ordinal",
+      "Interval",
+      "Ratio"
+    ],
+    "ans": 3,
+    "exp": "The ratio scale has a true/absolute zero (e.g., height, weight, income). This allows meaningful ratios (twice as heavy, half as tall). Interval scales (e.g., temperature in °C) lack a true zero — 0°C doesn't mean 'no temperature'.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 31,
+    "text": "The process of converting research data into a usable form is called:",
+    "type": "mcq",
+    "opts": [
+      "Coding",
+      "Editing",
+      "Tabulation",
+      "Processing"
+    ],
+    "ans": 3,
+    "exp": "Data processing involves transforming raw data into meaningful information through stages: editing (checking errors), coding (assigning codes to responses), classification, and tabulation. It makes data ready for analysis.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 32,
+    "text": "Which type of variable is manipulated by the researcher?",
+    "type": "mcq",
+    "opts": [
+      "Dependent variable",
+      "Independent variable",
+      "Extraneous variable",
+      "Control variable"
+    ],
+    "ans": 1,
+    "exp": "The independent variable (IV) is deliberately manipulated or changed by the researcher to observe its effect. The dependent variable (DV) is what is measured or observed — it 'depends' on changes in the IV.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 33,
+    "text": "Case study method belongs to which research approach?",
+    "type": "mcq",
+    "opts": [
+      "Quantitative",
+      "Qualitative",
+      "Experimental",
+      "Descriptive"
+    ],
+    "ans": 1,
+    "exp": "Case study is a qualitative research approach that involves an in-depth, detailed investigation of a single subject (individual, group, organisation, or event). It uses multiple data sources and provides rich contextual understanding.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 34,
+    "text": "INFLIBNET stands for:",
+    "type": "mcq",
+    "opts": [
+      "Information and Library Network",
+      "Integrated Library and Information Network",
+      "Indian Federal Library Network",
+      "Institutional Library Framework"
+    ],
+    "ans": 0,
+    "exp": "INFLIBNET (Information and Library Network) is an autonomous inter-university centre of UGC, established in 1991. It provides shared library resources among universities and research institutions through platforms like SHODHGANGA and SHODHSINDHU.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 35,
+    "text": "The 'Digital Divide' refers to:",
+    "type": "mcq",
+    "opts": [
+      "Difference in digital device pricing",
+      "Gap in access to digital technology",
+      "Online piracy of content",
+      "Difference in internet speeds"
+    ],
+    "ans": 1,
+    "exp": "The Digital Divide describes the gap between individuals, communities, or countries that have access to modern information and communication technologies and those that do not — often correlated with socioeconomic, geographic, and demographic inequalities.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 36,
+    "text": "Mass communication differs from interpersonal communication mainly in:",
+    "type": "mcq",
+    "opts": [
+      "Speed",
+      "Use of channels",
+      "Audience size",
+      "Feedback mechanism"
+    ],
+    "ans": 2,
+    "exp": "The primary distinguishing feature of mass communication is that it targets a large, heterogeneous, and anonymous audience simultaneously (e.g., TV, radio, newspapers). Interpersonal communication involves a small number of people in direct contact.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 37,
+    "text": "Right to Information (RTI) Act in India was passed in:",
+    "type": "mcq",
+    "opts": [
+      "2001",
+      "2003",
+      "2005",
+      "2007"
+    ],
+    "ans": 2,
+    "exp": "The RTI Act, 2005 empowers Indian citizens to request information from public authorities. It came into full effect on 12 October 2005, replacing the Freedom of Information Act, 2002. It is a landmark transparency legislation.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 38,
+    "text": "Which planet is known as the 'Red Planet'?",
+    "type": "mcq",
+    "opts": [
+      "Venus",
+      "Jupiter",
+      "Mars",
+      "Saturn"
+    ],
+    "ans": 2,
+    "exp": "Mars is called the Red Planet due to the reddish appearance caused by iron oxide (rust) on its surface and atmosphere. It has the largest volcano (Olympus Mons) and canyon (Valles Marineris) in the solar system.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 39,
+    "text": "The Sustainable Development Goals (SDGs) total number is:",
+    "type": "mcq",
+    "opts": [
+      "12",
+      "15",
+      "17",
+      "20"
+    ],
+    "ans": 2,
+    "exp": "The 17 SDGs were adopted by the UN in 2015 as part of the 2030 Agenda for Sustainable Development. They cover poverty, hunger, health, education, climate action, and more — replacing the earlier 8 Millennium Development Goals (MDGs).",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 40,
+    "text": "Which of the following is an intrinsic motivation?",
+    "type": "mcq",
+    "opts": [
+      "Salary increment",
+      "Promotion",
+      "Personal satisfaction",
+      "Award"
+    ],
+    "ans": 2,
+    "exp": "Intrinsic motivation comes from within — the inherent satisfaction or enjoyment from performing an activity itself (curiosity, mastery, personal satisfaction). Extrinsic motivation involves external rewards like money, promotion, or awards.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 41,
+    "text": "Ethnography is a research method used primarily in:",
+    "type": "mcq",
+    "opts": [
+      "Physics",
+      "Economics",
+      "Anthropology/Sociology",
+      "Computer Science"
+    ],
+    "ans": 2,
+    "exp": "Ethnography is a qualitative research method where the researcher immerses themselves in a cultural group to study behaviour, customs, and social interactions in their natural setting. It is central to anthropology and sociology.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 42,
+    "text": "The UGC NET examination is conducted by:",
+    "type": "mcq",
+    "opts": [
+      "CSIR",
+      "NTA",
+      "UGC directly",
+      "UPSC"
+    ],
+    "ans": 1,
+    "exp": "NTA (National Testing Agency) conducts the UGC NET (National Eligibility Test) on behalf of UGC. The exam determines eligibility for Assistant Professor and Junior Research Fellowship (JRF) in Indian universities.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 43,
+    "text": "Which of the following is NOT a renewable energy source?",
+    "type": "mcq",
+    "opts": [
+      "Solar",
+      "Wind",
+      "Natural gas",
+      "Tidal"
+    ],
+    "ans": 2,
+    "exp": "Natural gas is a fossil fuel (non-renewable), formed over millions of years from organic matter. Solar, wind, and tidal energy are renewable as they are replenished naturally and do not deplete over time.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 44,
+    "text": "Gini coefficient measures:",
+    "type": "mcq",
+    "opts": [
+      "Poverty index",
+      "Income inequality",
+      "Literacy rate",
+      "Economic growth"
+    ],
+    "ans": 1,
+    "exp": "The Gini coefficient (0 to 1) measures income or wealth inequality within a nation. A value of 0 represents perfect equality (everyone earns the same); 1 represents maximum inequality (one person holds all income).",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 45,
+    "text": "The World Wide Web was invented by:",
+    "type": "mcq",
+    "opts": [
+      "Bill Gates",
+      "Tim Berners-Lee",
+      "Vint Cerf",
+      "Steve Jobs"
+    ],
+    "ans": 1,
+    "exp": "Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN, proposing a hypertext system to share information. He also created the first web browser and server. Vint Cerf co-invented the TCP/IP protocol (the internet infrastructure).",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 46,
+    "text": "Which gas is primarily responsible for the greenhouse effect?",
+    "type": "mcq",
+    "opts": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "ans": 2,
+    "exp": "Carbon dioxide (CO₂), while only 0.04% of the atmosphere, is the primary driver of human-caused greenhouse effect due to its long atmospheric lifetime and the massive quantities released by burning fossil fuels, deforestation, and industry.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 47,
+    "text": "The Fundamental Duties in the Indian Constitution are in:",
+    "type": "mcq",
+    "opts": [
+      "Part III",
+      "Part IV",
+      "Part IV-A",
+      "Part V"
+    ],
+    "ans": 2,
+    "exp": "Fundamental Duties are listed in Part IV-A (Article 51A) of the Indian Constitution, added by the 42nd Amendment (1976) on the recommendation of the Swaran Singh Committee. There are 11 Fundamental Duties in total.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 48,
+    "text": "A valid argument that leads to a false conclusion must have at least one:",
+    "type": "mcq",
+    "opts": [
+      "False premise",
+      "True premise",
+      "Invalid inference",
+      "Circular reasoning"
+    ],
+    "ans": 0,
+    "exp": "In logic, a valid argument guarantees that if all premises are true, the conclusion must be true. Therefore, if a valid argument's conclusion is false, at least one of its premises must be false — the logical form is sound but inputs are wrong.",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 49,
+    "text": "Which of the following is a fallacy of relevance?",
+    "type": "mcq",
+    "opts": [
+      "Ad hominem",
+      "Affirming the consequent",
+      "Denying the antecedent",
+      "Slippery slope"
+    ],
+    "ans": 0,
+    "exp": "Ad hominem is a fallacy of relevance — attacking the person making the argument rather than the argument itself. Affirming the consequent and denying the antecedent are formal fallacies (errors in logical form).",
+    "subject": "General",
+    "paper": 1
+  },
+  {
+    "id": 50,
+    "text": "The National Institutional Ranking Framework (NIRF) is published by:",
+    "type": "mcq",
+    "opts": [
+      "UGC",
+      "NAAC",
+      "Ministry of Education",
+      "AICTE"
+    ],
+    "ans": 2,
+    "exp": "NIRF was launched in 2015 by the Ministry of Education (formerly HRD Ministry). It ranks Indian HEIs across parameters like Teaching-Learning Resources, Research, Graduation Outcomes, Outreach, and Perception.",
+    "subject": "General",
+    "paper": 1
+  }
+]

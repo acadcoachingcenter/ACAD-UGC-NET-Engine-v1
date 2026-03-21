@@ -118,26 +118,15 @@ function renderQuestion(index) {
     if (submitted) colorMCQResult(q, index)
   }
 
-  // Explanation
+  // Explanation — only visible after submission, never during exam
   const expEl = document.getElementById('explanation')
   const expBtn = document.getElementById('showExpBtn')
   expEl.classList.remove('show')
+  expBtn.style.display = 'none'  // always hidden during exam
 
-  if (q.exp) {
-    if (submitted) {
-      document.getElementById('expText').textContent = q.exp
-      expEl.classList.add('show')
-      expBtn.style.display = 'none'
-    } else {
-      expBtn.style.display = 'inline-flex'
-      expBtn.onclick = () => {
-        document.getElementById('expText').textContent = q.exp
-        expEl.classList.add('show')
-        expBtn.style.display = 'none'
-      }
-    }
-  } else {
-    expBtn.style.display = 'none'
+  if (submitted && q.exp) {
+    document.getElementById('expText').textContent = q.exp
+    expEl.classList.add('show')
   }
 
   document.getElementById('prevBtn').disabled = index === 0

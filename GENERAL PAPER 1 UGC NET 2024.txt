@@ -1,0 +1,499 @@
+Q1. Which of the following is NOT a characteristic of research?
+(A)  Systematic
+(B)  Empirical
+(C)  Speculative
+(D)  Replicable
+
+Correct Answer: (C) Speculative
+
+Explanation: Research must be systematic (planned), empirical (evidence-based), and replicable (reproducible). Speculation implies guesswork without evidence — the opposite of sound research methodology.
+
+Q2. The Likert scale is used to measure:
+(A)  Attitudes and opinions
+(B)  Physical distances
+(C)  Time durations
+(D)  Financial data
+
+Correct Answer: (A) Attitudes and opinions
+
+Explanation: The Likert scale (developed by Rensis Likert, 1932) is a psychometric scale commonly used in surveys to capture the degree of agreement or disagreement with a statement, measuring attitudes and opinions.
+
+Q3. Which type of sampling is used when the population is divided into subgroups?
+(A)  Simple random sampling
+(B)  Stratified sampling
+(C)  Cluster sampling
+(D)  Systematic sampling
+
+Correct Answer: (B) Stratified sampling
+
+Explanation: Stratified sampling divides the population into homogeneous subgroups (strata) and then randomly samples from each stratum, ensuring proportional representation of all subgroups.
+
+Q4. A hypothesis that states no relationship exists between variables is called:
+(A)  Alternate hypothesis
+(B)  Null hypothesis
+(C)  Directional hypothesis
+(D)  Research hypothesis
+
+Correct Answer: (B) Null hypothesis
+
+Explanation: The null hypothesis (H₀) proposes that there is no significant relationship or difference between variables. It is the default assumption that researchers attempt to disprove through statistical testing.
+
+Q5. Which of the following is a primary source of data?
+(A)  Newspaper
+(B)  Encyclopaedia
+(C)  Interview
+(D)  Review article
+
+Correct Answer: (C) Interview
+
+Explanation: Primary sources provide first-hand, original data collected directly by the researcher — such as interviews, surveys, and experiments. Newspapers and encyclopaedias are secondary sources compiled from existing data.
+
+Q6. The Indian Constitution was adopted on:
+(A)  15 August 1947
+(B)  26 January 1950
+(C)  26 November 1949
+(D)  30 January 1948
+
+Correct Answer: (C) 26 November 1949
+
+Explanation: The Constitution of India was adopted by the Constituent Assembly on 26 November 1949 (celebrated as Constitution Day). It came into effect on 26 January 1950, which is celebrated as Republic Day.
+
+Q7. Which Article of the Indian Constitution deals with Right to Education?
+(A)  Article 19
+(B)  Article 21A
+(C)  Article 30
+(D)  Article 45
+
+Correct Answer: (B) Article 21A
+
+Explanation: Article 21A (inserted by the 86th Constitutional Amendment, 2002) makes Right to Education a Fundamental Right, providing free and compulsory education to all children aged 6–14 years.
+
+Q8. The concept of 'Digital India' was launched in the year:
+(A)  2013
+(B)  2014
+(C)  2015
+(D)  2016
+
+Correct Answer: (C) 2015
+
+Explanation: Digital India was launched on 1 July 2015 by the Government of India with a vision to transform India into a digitally empowered society and knowledge economy, focusing on digital infrastructure and digital literacy.
+
+Q9. Which of the following is NOT a communication barrier?
+(A)  Noise
+(B)  Feedback
+(C)  Language difference
+(D)  Cultural difference
+
+Correct Answer: (B) Feedback
+
+Explanation: Feedback is actually an essential component of effective communication — it helps confirm that the message was received and understood correctly. Noise, language differences, and cultural differences all impede communication.
+
+Q10. Semiotics is the study of:
+(A)  Sound waves
+(B)  Signs and symbols
+(C)  Human behaviour
+(D)  Social institutions
+
+Correct Answer: (B) Signs and symbols
+
+Explanation: Semiotics (from the Greek 'semeion', meaning sign) is the study of signs, symbols, and their meanings and how they communicate. Ferdinand de Saussure and Charles Sanders Peirce are foundational figures in this field.
+
+Q11. Which is the largest greenhouse gas contributor from agriculture?
+(A)  CO2
+(B)  Methane
+(C)  Nitrous oxide
+(D)  Ozone
+
+Correct Answer: (B) Methane
+
+Explanation: Methane (CH₄) is the primary greenhouse gas from agriculture, mainly produced by enteric fermentation in ruminant livestock (cattle, sheep) and decomposition in rice paddies and manure management.
+
+Q12. The Kyoto Protocol is related to:
+(A)  Nuclear disarmament
+(B)  Climate change
+(C)  Biodiversity
+(D)  Marine pollution
+
+Correct Answer: (B) Climate change
+
+Explanation: The Kyoto Protocol (1997, entered into force 2005) is an international treaty under UNFCCC that committed developed nations to reduce greenhouse gas emissions. It was the first binding international climate agreement.
+
+Q13. NAAC stands for:
+(A)  National Assessment and Accreditation Council
+(B)  National Academic Assurance Committee
+(C)  National Authority for Academic Certification
+(D)  National Association of Academic Councils
+
+Correct Answer: (A) National Assessment and Accreditation Council
+
+Explanation: NAAC (National Assessment and Accreditation Council) was established in 1994 by UGC. It assesses and accredits Higher Education Institutions (HEIs) in India through a peer-team process to maintain quality standards.
+
+Q14. The National Education Policy 2020 proposes the school curriculum structure as:
+(A)  10+2
+(B)  5+3+3+4
+(C)  4+4+4
+(D)  6+3+3+2
+
+Correct Answer: (B) 5+3+3+4
+
+Explanation: NEP 2020 restructures school education into 5+3+3+4: Foundational (ages 3–8, 5 years), Preparatory (ages 8–11, 3 years), Middle (ages 11–14, 3 years), and Secondary (ages 14–18, 4 years), replacing the old 10+2 system.
+
+Q15. Which teaching method centres on the student's active participation?
+(A)  Lecture method
+(B)  Demonstration method
+(C)  Problem-based learning
+(D)  Rote learning
+
+Correct Answer: (C) Problem-based learning
+
+Explanation: Problem-based learning (PBL) is a student-centred pedagogy where learners actively work on complex, real-world problems. It promotes critical thinking, self-directed learning, and collaboration — contrasted with passive lecture-based instruction.
+
+Q16. Bloom's Taxonomy highest cognitive level is:
+(A)  Analysis
+(B)  Synthesis
+(C)  Evaluation
+(D)  Create
+
+Correct Answer: (D) Create
+
+Explanation: In the revised Bloom's Taxonomy (Anderson & Krathwohl, 2001), 'Create' is the highest cognitive level — involving generating new ideas, products, or approaches. Original taxonomy had 'Evaluation' at the top, but the revised version replaced 'Synthesis' with 'Create'.
+
+Q17. The term 'e-learning' primarily refers to:
+(A)  Economic learning
+(B)  Electronic-based learning
+(C)  Enhanced learning
+(D)  Experimental learning
+
+Correct Answer: (B) Electronic-based learning
+
+Explanation: E-learning refers to education delivered via electronic technologies, primarily the internet. It encompasses online courses, digital resources, virtual classrooms, and computer-based training — enabling learning anytime and anywhere.
+
+Q18. Which of the following is an open-source Learning Management System?
+(A)  Blackboard
+(B)  Canvas
+(C)  Moodle
+(D)  Coursera
+
+Correct Answer: (C) Moodle
+
+Explanation: Moodle (Modular Object-Oriented Dynamic Learning Environment) is a free, open-source LMS widely used by educational institutions globally. Blackboard and Canvas are proprietary commercial systems; Coursera is an online MOOC platform.
+
+Q19. The concept of 'spiral curriculum' was proposed by:
+(A)  John Dewey
+(B)  Jerome Bruner
+(C)  Benjamin Bloom
+(D)  Lev Vygotsky
+
+Correct Answer: (B) Jerome Bruner
+
+Explanation: Jerome Bruner introduced the spiral curriculum in 'The Process of Education' (1960). It proposes that subjects should be taught at increasing levels of difficulty, revisiting core concepts repeatedly as the learner's understanding deepens.
+
+Q20. Formative assessment is primarily used for:
+(A)  Grading students
+(B)  Monitoring learning progress
+(C)  Final evaluation
+(D)  Ranking institutions
+
+Correct Answer: (B) Monitoring learning progress
+
+Explanation: Formative assessment is ongoing assessment during the learning process (quizzes, class discussions, assignments) used to monitor progress and provide feedback to improve learning. Summative assessment evaluates achievement at the end.
+
+Q21. Which of the following describes 'plagiarism'?
+(A)  Proper citation of sources
+(B)  Using others' work without acknowledgement
+(C)  Paraphrasing with attribution
+(D)  Collaborative writing
+
+Correct Answer: (B) Using others' work without acknowledgement
+
+Explanation: Plagiarism is the act of presenting someone else's ideas, words, or work as one's own without proper attribution. It is a serious academic and ethical violation, regardless of whether it is intentional or unintentional.
+
+Q22. The peer review process in research ensures:
+(A)  Faster publication
+(B)  Quality and validity of research
+(C)  Open access
+(D)  Author's anonymity
+
+Correct Answer: (B) Quality and validity of research
+
+Explanation: Peer review is the evaluation of research by qualified experts in the same field before publication. It ensures the accuracy, validity, and significance of research findings, forming the backbone of scientific quality control.
+
+Q23. An ISBN is used to identify:
+(A)  Journal articles
+(B)  Books
+(C)  Websites
+(D)  Research reports
+
+Correct Answer: (B) Books
+
+Explanation: ISBN (International Standard Book Number) is a unique 13-digit identifier assigned to each edition and variation of a book. Journal articles use DOI (Digital Object Identifier), while websites use URLs.
+
+Q24. Which agency publishes the H-index for researchers?
+(A)  UGC
+(B)  Google Scholar
+(C)  NAAC
+(D)  DST
+
+Correct Answer: (B) Google Scholar
+
+Explanation: Google Scholar provides H-index metrics for researchers. The H-index (proposed by Jorge Hirsch in 2005) measures both productivity and citation impact — a researcher has index h if h papers have been cited at least h times.
+
+Q25. 'Impact factor' is associated with:
+(A)  Books
+(B)  Researchers
+(C)  Journals
+(D)  Universities
+
+Correct Answer: (C) Journals
+
+Explanation: Impact Factor (IF) is a measure of the frequency with which articles in a journal are cited. Calculated by Clarivate Analytics (formerly Thomson Reuters) via Journal Citation Reports (JCR), it reflects the relative importance of a journal in its field.
+
+Q26. Which body regulates higher education in India?
+(A)  CBSE
+(B)  NCERT
+(C)  UGC
+(D)  AICTE
+
+Correct Answer: (C) UGC
+
+Explanation: UGC (University Grants Commission), established in 1956, is the statutory body under the Ministry of Education that regulates and maintains standards of higher education in India. AICTE regulates technical education specifically.
+
+Q27. The mean of 5, 10, 15, 20, 25 is:
+(A)  10
+(B)  15
+(C)  20
+(D)  25
+
+Correct Answer: (B) 15
+
+Explanation: Mean = Sum / Count = (5+10+15+20+25) / 5 = 75 / 5 = 15. For an arithmetic progression, the mean equals the middle term, which is 15 here.
+
+Q28. Standard deviation measures:
+(A)  Central tendency
+(B)  Dispersion of data
+(C)  Correlation
+(D)  Regression
+
+Correct Answer: (B) Dispersion of data
+
+Explanation: Standard deviation (SD) is a measure of dispersion that quantifies how much the values in a dataset deviate from the mean. A low SD means values are clustered near the mean; a high SD means they are spread out.
+
+Q29. Which test is used to compare two independent sample means?
+(A)  Chi-square test
+(B)  F-test
+(C)  t-test
+(D)  Z-test
+
+Correct Answer: (C) t-test
+
+Explanation: The independent samples t-test (Student's t-test) is used to compare the means of two independent groups when sample sizes are small (<30) and population variance is unknown. Chi-square tests categorical data; F-test compares variances.
+
+Q30. Which scale of measurement has a true zero point?
+(A)  Nominal
+(B)  Ordinal
+(C)  Interval
+(D)  Ratio
+
+Correct Answer: (D) Ratio
+
+Explanation: The ratio scale has a true/absolute zero (e.g., height, weight, income). This allows meaningful ratios (twice as heavy, half as tall). Interval scales (e.g., temperature in °C) lack a true zero — 0°C doesn't mean 'no temperature'.
+
+Q31. The process of converting research data into a usable form is called:
+(A)  Coding
+(B)  Editing
+(C)  Tabulation
+(D)  Processing
+
+Correct Answer: (D) Processing
+
+Explanation: Data processing involves transforming raw data into meaningful information through stages: editing (checking errors), coding (assigning codes to responses), classification, and tabulation. It makes data ready for analysis.
+
+Q32. Which type of variable is manipulated by the researcher?
+(A)  Dependent variable
+(B)  Independent variable
+(C)  Extraneous variable
+(D)  Control variable
+
+Correct Answer: (B) Independent variable
+
+Explanation: The independent variable (IV) is deliberately manipulated or changed by the researcher to observe its effect. The dependent variable (DV) is what is measured or observed — it 'depends' on changes in the IV.
+
+Q33. Case study method belongs to which research approach?
+(A)  Quantitative
+(B)  Qualitative
+(C)  Experimental
+(D)  Descriptive
+
+Correct Answer: (B) Qualitative
+
+Explanation: Case study is a qualitative research approach that involves an in-depth, detailed investigation of a single subject (individual, group, organisation, or event). It uses multiple data sources and provides rich contextual understanding.
+
+Q34. INFLIBNET stands for:
+(A)  Information and Library Network
+(B)  Integrated Library and Information Network
+(C)  Indian Federal Library Network
+(D)  Institutional Library Framework
+
+Correct Answer: (A) Information and Library Network
+
+Explanation: INFLIBNET (Information and Library Network) is an autonomous inter-university centre of UGC, established in 1991. It provides shared library resources among universities and research institutions through platforms like SHODHGANGA and SHODHSINDHU.
+
+Q35. The 'Digital Divide' refers to:
+(A)  Difference in digital device pricing
+(B)  Gap in access to digital technology
+(C)  Online piracy of content
+(D)  Difference in internet speeds
+
+Correct Answer: (B) Gap in access to digital technology
+
+Explanation: The Digital Divide describes the gap between individuals, communities, or countries that have access to modern information and communication technologies and those that do not — often correlated with socioeconomic, geographic, and demographic inequalities.
+
+Q36. Mass communication differs from interpersonal communication mainly in:
+(A)  Speed
+(B)  Use of channels
+(C)  Audience size
+(D)  Feedback mechanism
+
+Correct Answer: (C) Audience size
+
+Explanation: The primary distinguishing feature of mass communication is that it targets a large, heterogeneous, and anonymous audience simultaneously (e.g., TV, radio, newspapers). Interpersonal communication involves a small number of people in direct contact.
+
+Q37. Right to Information (RTI) Act in India was passed in:
+(A)  2001
+(B)  2003
+(C)  2005
+(D)  2007
+
+Correct Answer: (C) 2005
+
+Explanation: The RTI Act, 2005 empowers Indian citizens to request information from public authorities. It came into full effect on 12 October 2005, replacing the Freedom of Information Act, 2002. It is a landmark transparency legislation.
+
+Q38. Which planet is known as the 'Red Planet'?
+(A)  Venus
+(B)  Jupiter
+(C)  Mars
+(D)  Saturn
+
+Correct Answer: (C) Mars
+
+Explanation: Mars is called the Red Planet due to the reddish appearance caused by iron oxide (rust) on its surface and atmosphere. It has the largest volcano (Olympus Mons) and canyon (Valles Marineris) in the solar system.
+
+Q39. The Sustainable Development Goals (SDGs) total number is:
+(A)  12
+(B)  15
+(C)  17
+(D)  20
+
+Correct Answer: (C) 17
+
+Explanation: The 17 SDGs were adopted by the UN in 2015 as part of the 2030 Agenda for Sustainable Development. They cover poverty, hunger, health, education, climate action, and more — replacing the earlier 8 Millennium Development Goals (MDGs).
+
+Q40. Which of the following is an intrinsic motivation?
+(A)  Salary increment
+(B)  Promotion
+(C)  Personal satisfaction
+(D)  Award
+
+Correct Answer: (C) Personal satisfaction
+
+Explanation: Intrinsic motivation comes from within — the inherent satisfaction or enjoyment from performing an activity itself (curiosity, mastery, personal satisfaction). Extrinsic motivation involves external rewards like money, promotion, or awards.
+
+Q41. Ethnography is a research method used primarily in:
+(A)  Physics
+(B)  Economics
+(C)  Anthropology/Sociology
+(D)  Computer Science
+
+Correct Answer: (C) Anthropology/Sociology
+
+Explanation: Ethnography is a qualitative research method where the researcher immerses themselves in a cultural group to study behaviour, customs, and social interactions in their natural setting. It is central to anthropology and sociology.
+
+Q42. The UGC NET examination is conducted by:
+(A)  CSIR
+(B)  NTA
+(C)  UGC directly
+(D)  UPSC
+
+Correct Answer: (B) NTA
+
+Explanation: NTA (National Testing Agency) conducts the UGC NET (National Eligibility Test) on behalf of UGC. The exam determines eligibility for Assistant Professor and Junior Research Fellowship (JRF) in Indian universities.
+
+Q43. Which of the following is NOT a renewable energy source?
+(A)  Solar
+(B)  Wind
+(C)  Natural gas
+(D)  Tidal
+
+Correct Answer: (C) Natural gas
+
+Explanation: Natural gas is a fossil fuel (non-renewable), formed over millions of years from organic matter. Solar, wind, and tidal energy are renewable as they are replenished naturally and do not deplete over time.
+
+Q44. Gini coefficient measures:
+(A)  Poverty index
+(B)  Income inequality
+(C)  Literacy rate
+(D)  Economic growth
+
+Correct Answer: (B) Income inequality
+
+Explanation: The Gini coefficient (0 to 1) measures income or wealth inequality within a nation. A value of 0 represents perfect equality (everyone earns the same); 1 represents maximum inequality (one person holds all income).
+
+Q45. The World Wide Web was invented by:
+(A)  Bill Gates
+(B)  Tim Berners-Lee
+(C)  Vint Cerf
+(D)  Steve Jobs
+
+Correct Answer: (B) Tim Berners-Lee
+
+Explanation: Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN, proposing a hypertext system to share information. He also created the first web browser and server. Vint Cerf co-invented the TCP/IP protocol (the internet infrastructure).
+
+Q46. Which gas is primarily responsible for the greenhouse effect?
+(A)  Oxygen
+(B)  Nitrogen
+(C)  Carbon dioxide
+(D)  Argon
+
+Correct Answer: (C) Carbon dioxide
+
+Explanation: Carbon dioxide (CO₂), while only 0.04% of the atmosphere, is the primary driver of human-caused greenhouse effect due to its long atmospheric lifetime and the massive quantities released by burning fossil fuels, deforestation, and industry.
+
+Q47. The Fundamental Duties in the Indian Constitution are in:
+(A)  Part III
+(B)  Part IV
+(C)  Part IV-A
+(D)  Part V
+
+Correct Answer: (C) Part IV-A
+
+Explanation: Fundamental Duties are listed in Part IV-A (Article 51A) of the Indian Constitution, added by the 42nd Amendment (1976) on the recommendation of the Swaran Singh Committee. There are 11 Fundamental Duties in total.
+
+Q48. A valid argument that leads to a false conclusion must have at least one:
+(A)  False premise
+(B)  True premise
+(C)  Invalid inference
+(D)  Circular reasoning
+
+Correct Answer: (A) False premise
+
+Explanation: In logic, a valid argument guarantees that if all premises are true, the conclusion must be true. Therefore, if a valid argument's conclusion is false, at least one of its premises must be false — the logical form is sound but inputs are wrong.
+
+Q49. Which of the following is a fallacy of relevance?
+(A)  Ad hominem
+(B)  Affirming the consequent
+(C)  Denying the antecedent
+(D)  Slippery slope
+
+Correct Answer: (A) Ad hominem
+
+Explanation: Ad hominem is a fallacy of relevance — attacking the person making the argument rather than the argument itself. Affirming the consequent and denying the antecedent are formal fallacies (errors in logical form).
+
+Q50. The National Institutional Ranking Framework (NIRF) is published by:
+(A)  UGC
+(B)  NAAC
+(C)  Ministry of Education
+(D)  AICTE
+
+Correct Answer: (C) Ministry of Education
+
+Explanation: NIRF was launched in 2015 by the Ministry of Education (formerly HRD Ministry). It ranks Indian HEIs across parameters like Teaching-Learning Resources, Research, Graduation Outcomes, Outreach, and Perception.

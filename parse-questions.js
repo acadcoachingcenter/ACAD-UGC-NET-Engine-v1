@@ -1,8 +1,13 @@
 /**
  * parse-questions.js — UGC-NET Engine
- * Handles both formats:
- *   - No blank lines between Q/Options/Answer/Explanation
- *   - Blank lines between each section
+ *
+ * Handles ALL these option formats:
+ *   (A) text        ← one per line with brackets
+ *   A. text         ← one per line with dot
+ *   A. x B. y C. z D. w   ← all four inline with dot
+ *   (A) x (B) y (C) z (D) w ← all four inline with brackets
+ *
+ * Usage: node parse-questions.js questions.txt
  */
 
 import fs from 'fs'
@@ -19,21 +24,40 @@ function parse(raw) {
   const total = lines.length
   let i = 0
 
-  const isQuestionLine  = l => /^Q?\d+[.)]\s+\S/.test(l)
-  const isOptionLine    = l => /^\([A-D]\)\s*/i.test(l)
-  const isAnswerLine    = l => /^(correct\s+answer|answer)\s*:/i.test(l)
+  const isQuestionLine    = l => /^Q?\d+[.)]\s+\S/.test(l)
+  const isAnswerLine      = l => /^(correct\s+answer|answer)\s*:/i.test(l)
   const isExplanationLine = l => /^explanation\s*:/i.test(l)
-  const isSkipLine      = l => !l || /^(PAPER\s+(I+|II+)|General Instructions|Questions\s+\d+\s+to|All questions|Each question|Read each|•)/i.test(l)
+  const isSkipLine        = l => !l || /^(PAPER\s+(I+|II+)|General Instructions|Questions\s+\d+\s+to|All questions|Each question|Read each|•)/i.test(l)
+
+  // Matches option start: (A) or A. at beginning of string
+  const isOptionLine = l => /^(\([A-D]\)|[A-D]\.)\s*/i.test(l)
+
+  // Parse options from one line: "A. x B. y C. z D. w" or "(A) x (B) y"
+  function parseInlineOptions(line) {
+    // "A. text B. text C. text D. text" — split on letter+dot boundary
+    if (/\b[A-D]\./i.test(line)) {
+      const parts = line.split(/\s+(?=[A-D]\.)/i)
+        .map(p => p.replace(/^[A-D]\.\s*/i, '').trim())
+        .filter(Boolean)
+      if (parts.length >= 2) return parts
+    }
+    // "(A) text (B) text" bracket format
+    const bm = [...line.matchAll(/\(([A-D])\)\s+([^(]+?)(?=\s*\([A-D]\)|$)/gi)]
+    if (bm.length >= 2) return bm.map(m => m[2].trim())
+    return null
+  }
 
   while (i < total) {
     const line = lines[i].trim()
     if (isSkipLine(line) || !isQuestionLine(line)) { i++; continue }
 
-    // ── Question text ──────────────────────────────────────────────────────
+    // ── Question text ────────────────────────────────────────────────────
     const qMatch = line.match(/^Q?(\d+)[.)]\s+(.+)/)
     const qNum = parseInt(qMatch[1])
     let qText = qMatch[2].trim()
     i++
+
+    // Question may continue on next lines
     while (i < total) {
       const nxt = lines[i].trim()
       if (!nxt || isOptionLine(nxt) || isAnswerLine(nxt) || isQuestionLine(nxt)) break
@@ -41,7 +65,7 @@ function parse(raw) {
       i++
     }
 
-    // ── Options ────────────────────────────────────────────────────────────
+    // ── Options ──────────────────────────────────────────────────────────
     const opts = []
     while (i < total && !lines[i].trim()) i++  // skip blanks
 
@@ -49,18 +73,19 @@ function parse(raw) {
       const ol = lines[i].trim()
       if (!ol || isAnswerLine(ol) || isQuestionLine(ol)) break
 
-      // All 4 options on one line: (A) x (B) y (C) z (D) w
-      const inlineAll = [...ol.matchAll(/\(([A-D])\)\s+([^(]+?)(?=\s*\([A-D]\)|$)/gi)]
-      if (inlineAll.length >= 2) {
-        inlineAll.forEach(m => opts.push(m[2].trim()))
+      // Try parsing all 4 options from one line
+      const inline = parseInlineOptions(ol)
+      if (inline && inline.length >= 2) {
+        inline.forEach(o => opts.push(o))
         i++; break
       }
 
-      // Single option: (A) text
-      const single = ol.match(/^\(([A-D])\)\s*(.*)$/i)
+      // Single option: (A) text OR A. text
+      const single = ol.match(/^(?:\(([A-D])\)|([A-D])\.)\s*(.*)$/i)
       if (single) {
-        let optText = single[2].trim()
+        let optText = (single[3] || '').trim()
         i++
+        // Option text may spill to next line
         while (i < total) {
           const nxt = lines[i].trim()
           if (!nxt || isOptionLine(nxt) || isAnswerLine(nxt) || isQuestionLine(nxt)) break
@@ -71,21 +96,26 @@ function parse(raw) {
         continue
       }
 
-      // Not an option — stop WITHOUT advancing i
+      // Not an option line — stop without advancing
       break
     }
 
-    // ── Correct Answer ─────────────────────────────────────────────────────
-    while (i < total && !lines[i].trim()) i++  // skip blanks
+    // ── Correct Answer ───────────────────────────────────────────────────
+    while (i < total && !lines[i].trim()) i++
     let ansIdx = null
     if (i < total && isAnswerLine(lines[i].trim())) {
-      const ansMatch = lines[i].trim().match(/\(([A-D])\)/i)
-      if (ansMatch) ansIdx = ansMatch[1].toUpperCase().charCodeAt(0) - 65
+      const al = lines[i].trim()
+      // Match (C) or just C
+      const ansMatch = al.match(/\(([A-D])\)|:\s*([A-D])\b/i)
+      if (ansMatch) {
+        const letter = (ansMatch[1] || ansMatch[2]).toUpperCase()
+        ansIdx = letter.charCodeAt(0) - 65  // A→0 B→1 C→2 D→3
+      }
       i++
     }
 
-    // ── Explanation ────────────────────────────────────────────────────────
-    while (i < total && !lines[i].trim()) i++  // skip blanks
+    // ── Explanation ──────────────────────────────────────────────────────
+    while (i < total && !lines[i].trim()) i++
     let expText = ''
     if (i < total && isExplanationLine(lines[i].trim())) {
       expText = lines[i].trim().replace(/^explanation\s*:\s*/i, '').trim()
@@ -98,13 +128,17 @@ function parse(raw) {
       }
     }
 
-    // ── Validate & push ────────────────────────────────────────────────────
+    // ── Validate & push ──────────────────────────────────────────────────
     if (!qText) { errors.push(`Q${qNum}: missing text — skipped`); continue }
-    if (opts.length < 4) errors.push(`Q${qNum}: only ${opts.length} option(s) — check format`)
+    if (opts.length < 4) errors.push(`Q${qNum}: only ${opts.length} option(s) found — check format`)
     if (ansIdx === null)  errors.push(`Q${qNum}: no correct answer found`)
 
     const { paper, subject } = getSubject(qNum)
-    questions.push({ id: qNum, text: qText, type: 'mcq', opts, ans: ansIdx ?? 0, exp: expText, subject, paper })
+    questions.push({
+      id: qNum, text: qText, type: 'mcq',
+      opts, ans: ansIdx ?? 0,
+      exp: expText, subject, paper
+    })
   }
 
   return { questions, errors }
@@ -114,6 +148,10 @@ function parse(raw) {
 const inputFile = process.argv[2]
 if (!inputFile) {
   console.error('\nUsage: node parse-questions.js <questions.txt>\n')
+  process.exit(1)
+}
+if (!fs.existsSync(inputFile)) {
+  console.error(`\nFile not found: ${inputFile}\n`)
   process.exit(1)
 }
 
@@ -133,12 +171,12 @@ const paper2 = questions.filter(q => q.paper === 2)
 console.log(`\n  Paper I  (General):          ${paper1.length} questions`)
 console.log(`  Paper II (Computer Science): ${paper2.length} questions`)
 
-// Preview first 2
-console.log('\n── Preview (first 2 questions) ──────────────')
-questions.slice(0, 2).forEach(q => {
+// Preview first 3
+console.log('\n── Preview (first 3 questions) ──────────────')
+questions.slice(0, 3).forEach(q => {
   const L = ['A','B','C','D']
   console.log(`\nQ${q.id}. ${q.text}`)
-  q.opts.forEach((o, j) => console.log(`  ${j === q.ans ? '✓' : ' '} (${L[j]}) ${o}`))
+  q.opts.forEach((o, j) => console.log(`  ${j === q.ans ? '✓' : ' '} ${L[j]}. ${o}`))
   if (q.exp) console.log(`  Exp: ${q.exp.slice(0,80)}${q.exp.length>80?'…':''}`)
 })
 console.log('\n─────────────────────────────────────────────')
@@ -152,4 +190,5 @@ console.log(`\n📄 Files written:`)
 console.log(`   ${base}-all.json`)
 console.log(`   ${base}-paper1.json`)
 console.log(`   ${base}-paper2.json`)
-console.log(`\n👉 Paste paper1.json and paper2.json separately into admin → Upload Questions → JSON Array tab\n`)
+console.log(`\n👉 Paste paper1.json and paper2.json separately into:`)
+console.log(`   admin panel → Upload Questions → JSON Array tab\n`)
